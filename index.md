@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pag
 
 You can use the [editor on GitHub](https://github.com/gagan-a18/coursera-assignment/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
