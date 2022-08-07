@@ -88,3 +88,70 @@ h2{
     clear: both;
     
   }
+  
+  #collapsable-nav a span{
+    font-size:1em;
+  }
+  #butt{
+    font-size:25px;
+    color:white;
+  }
+  #menu-cat,#special-cat,#map-til{
+    height:250px;
+    width:100%;
+    margin-bottom:15px;
+    position:relative;
+    border:2px solid white;
+    overflow:hidden;
+  }
+  #menu-cat:hover,#special-cat:hover,#map-til:hover{
+    box-shadow: 0 2px 5px 2px white;
+  }
+  #menu-cat{
+    background: url("menu.png") no-repeat;
+    background-position:center;
+    width:100%;
+    height:250px;
+  }
+  #special-cat{
+    background: url("menu1.png") no-repeat;
+    background-position: center; 
+    width:100%;
+    height:250px;
+  }
+  @media(min-width:1200px){
+    .container .jumbotron{
+      background: url("star.jpg") no-repeat;
+     height:600px;
+      box-shadow: 0 0 50px black;
+      border:2px solid black;
+
+    }
+  }
+  @media(min-width:992px) and (max-width:1199px){
+    .container .jumbotron{
+      background: url("star992.jpg") no-repeat;
+     height:558px;
+      box-shadow: 0 0 50px black;
+      border:2px solid black;
+    }
+   
+  }
+  @media(min-width:768px) and (max-width:991px){
+    .container .jumbotron{
+      background: url("star768.jpg") no-repeat;
+     height:432px;
+      box-shadow: 0 0 50px black;
+      border:2px solid black;
+
+    }
+  }
+  @media(max-width:767px){
+     .container .jumbotron{
+      margin-top:30px;
+      padding:0;
+      box-shadow: 0 0 50px black;
+      border:2px solid black;
+
+    }
+  }
